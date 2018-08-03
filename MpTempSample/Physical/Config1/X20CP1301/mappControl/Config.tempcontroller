@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="gTempController01" Type="tempcontroller">
+    <Group ID="TempController">
+      <Property ID="MaxHeatOutput" Value="100" />
+      <Group ID="PWMParameters">
+        <Group ID="Heat">
+          <Property ID="Period" Value="2.0" />
+        </Group>
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gTempController02" Type="tempcontroller">
+    <Group ID="TempController">
+      <Group ID="PWMParameters">
+        <Group ID="Heat">
+          <Property ID="Period" Value="2.0" />
+        </Group>
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gTempController03" Type="tempcontroller">
+    <Group ID="TempController">
+      <Group ID="PWMParameters">
+        <Group ID="Heat">
+          <Property ID="Period" Value="2.0" />
+        </Group>
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gTempController04" Type="tempcontroller">
+    <Group ID="TempController">
+      <Group ID="PWMParameters">
+        <Group ID="Heat">
+          <Property ID="Period" Value="2.0" />
+        </Group>
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gTempController05" Type="tempcontroller">
+    <Group ID="TempController">
+      <Group ID="PWMParameters">
+        <Group ID="Heat">
+          <Property ID="Period" Value="2.0" />
+        </Group>
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gTempController06" Type="tempcontroller">
+    <Group ID="TempController">
+      <Group ID="PWMParameters">
+        <Group ID="Heat">
+          <Property ID="Period" Value="2.0" />
+        </Group>
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gTempController07" Type="tempcontroller">
+    <Group ID="TempController">
+      <Group ID="PWMParameters">
+        <Group ID="Heat">
+          <Property ID="Period" Value="2.0" />
+        </Group>
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gTempController08" Type="tempcontroller">
+    <Group ID="TempController">
+      <Group ID="PWMParameters">
+        <Group ID="Heat">
+          <Property ID="Period" Value="2.0" />
+        </Group>
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gTempController09" Type="tempcontroller">
+    <Group ID="TempController">
+      <Group ID="PWMParameters">
+        <Group ID="Heat">
+          <Property ID="Period" Value="2.0" />
+        </Group>
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gTempController10" Type="tempcontroller">
+    <Group ID="TempController">
+      <Group ID="PWMParameters">
+        <Group ID="Heat">
+          <Property ID="Period" Value="2.0" />
+        </Group>
+      </Group>
+    </Group>
+  </Element>
+</Configuration>

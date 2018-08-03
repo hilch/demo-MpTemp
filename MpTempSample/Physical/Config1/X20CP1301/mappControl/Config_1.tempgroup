@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="gTempGroup" Type="tempgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="Zone[0]" Value="gTempController01" />
+        <Property ID="Zone[1]" Value="gTempController02" />
+        <Property ID="Zone[2]" Value="gTempController03" />
+        <Property ID="Zone[3]" Value="gTempController04" />
+        <Property ID="Zone[4]" Value="gTempController05" />
+        <Property ID="Zone[5]" Value="gTempController06" />
+        <Property ID="Zone[6]" Value="gTempController07" />
+        <Property ID="Zone[7]" Value="gTempController08" />
+        <Property ID="Zone[8]" Value="gTempController09" />
+        <Property ID="Zone[9]" Value="gTempController10" />
+      </Group>
+    </Group>
+    <Group ID="TempGroup">
+      <Property ID="EnableLoadBalancing" Value="FALSE" />
+    </Group>
+  </Element>
+</Configuration>

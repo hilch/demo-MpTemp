@@ -1,0 +1,27 @@
+VAR
+	tonWait : TON;
+	disturbanceCounter : UINT;
+	start : BOOL;
+	startTime : DATE_AND_TIME;
+	endTime : DATE_AND_TIME;
+	fubGetTime : DTGetTime;
+	diffTime : UDINT;
+	TempController : ARRAY[0..9] OF MpTempController;
+	TempGroup : MpTempGroup;
+	Parameter : MpTempControllerParType;
+	GroupParameter : MpTempGroupParType;
+	n : INT;
+	TC : REFERENCE TO MpTempController;
+	step : UINT;
+	allTempControllerActive : BOOL;
+	_MTBasicsPT2 : ARRAY[0..9] OF MTBasicsPT2;
+	_MTBasicsTimeDelay : ARRAY[0..9] OF MTBasicsTimeDelay;
+	allTempControllerInSetpoint : BOOL;
+	tuningError : BOOL;
+	LogEvent_0 : LogEvent;
+	SetTemperature : REAL;
+	ambientTemperature : REAL;
+	allTempControllerTuningDone : BOOL;
+	disturbance : REAL;
+	enableDisturbance : BOOL;
+END_VAR
